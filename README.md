@@ -14,7 +14,7 @@ python3 | pip3 | pipenv | flask | pytest
 http://localhost:5001/health-check
 
 ## SUPERVISOR
-- config file: `/etc/supervisor/conf.d/pi-time-control.conf`
+- move config file to: `/etc/supervisor/conf.d/pi-time-control.conf`
 - restart: `sudo systemctl restart supervisor.service`
 - open client: `sudo supervisorctl`
 - get logs: `tail pi-time-control stderr`
