@@ -9,7 +9,7 @@ verify_ssl = true
 flask = "*"
 flask-cors = "*"
 pytest = "*"
-python-dotenv = "*"
+dependency-injector = "*"
 
 [requires]
 python_version = "3.7"

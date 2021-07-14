@@ -1,4 +1,8 @@
 .venv
-__pycache__
+.eggs
 .pytest_cache
 .DS_Store
+
+__pycache__
+
+app/version.py
